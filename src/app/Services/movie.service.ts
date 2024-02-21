@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Movie } from '../movie.model';
+import { MovieDetailComponent } from '../movie-detail/movie-detail.component';
 @Injectable({
   providedIn: 'root'
 })
 export class MovieService {
 
-  constructor() { }
   
   movieList = [
     new Movie ( "The GodFather", "1972", "Francis Ford Coppola"),
